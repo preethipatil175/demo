@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name:MYLocalPool  vmImage: ubuntu-latest
+  name:mylocalHost  vmImage: ubuntu-latest
 
 steps:
 - task: ArchiveFiles@2
